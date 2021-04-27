@@ -13,7 +13,7 @@ When a search revealed this repository, I found no mention of it in the Home Ass
 Home Assistant installation
 
 Plugs must be setup on the same network as your homeassistant system via the Eco Plug apk.
-Copy folder/files from custom_components/ecoplug to "your homeassistant dir"/custom_components/ecoplug
+Copy folder/files from "ecoplug" to "your homeassistant dir"/custom_components/ecoplug
 Edit your configuration.yaml and add the following lines
    switch:
    - platform: ecoplug

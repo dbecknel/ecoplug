@@ -1,0 +1,9 @@
+{
+  "domain": "ecoplug",
+  "name": "Ecoplug",
+  "documentation": "https://github.com/gbealmer/pyecoplug/",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": ["pyecoplug==0.0.5"],
+  "version": "1.0.0"
+}

@@ -15,8 +15,12 @@ Home Assistant installation
 Plugs must be setup on the same network as your homeassistant system via the Eco Plug apk.
 Copy folder/files from "ecoplug" to "your homeassistant dir"/custom_components/ecoplug
 Edit your configuration.yaml and add the following lines
+
+```
    switch:
    - platform: ecoplug
      scan_interval: 10
+```
+     
 Restart homeassistant. The requirements will be loaded successfully by homeassistant.
 Plugs on the same network will be discovered and switches added in the ui.
